@@ -1,0 +1,332 @@
+{
+  "metadata_version": 1,
+  "id": "deepseek-whale",
+  "name": "DeepSeek鲸娘",
+  "description": "蓝发鲸娘，抱着盛有白米饭的铁盆；忙碌时吃饭，受挫时看着空盆。",
+  "metadata_notice": "Repository-specific, portable atlas description; not an official import manifest.",
+  "spritesheet": "spritesheet.png",
+  "sprite_version": 2,
+  "format": "PNG",
+  "color_mode": "RGBA",
+  "width": 1536,
+  "height": 2288,
+  "cell_width": 192,
+  "cell_height": 208,
+  "columns": 8,
+  "rows": 11,
+  "used_cells": 73,
+  "transparent_unused_cells": 15,
+  "coordinates": {
+    "origin": "top-left",
+    "index_base": 0,
+    "x": "column * cell_width",
+    "y": "row * cell_height"
+  },
+  "animations": [
+    {
+      "state": "idle",
+      "label_zh": "待机",
+      "row": 0,
+      "frame_count": 6,
+      "used_columns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "frame_durations_ms": [
+        280,
+        110,
+        110,
+        140,
+        140,
+        320
+      ]
+    },
+    {
+      "state": "running-right",
+      "label_zh": "向右移动",
+      "row": 1,
+      "frame_count": 8,
+      "used_columns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "frame_durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "state": "running-left",
+      "label_zh": "向左移动",
+      "row": 2,
+      "frame_count": 8,
+      "used_columns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "frame_durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "state": "waving",
+      "label_zh": "打招呼",
+      "row": 3,
+      "frame_count": 4,
+      "used_columns": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "frame_durations_ms": [
+        140,
+        140,
+        140,
+        280
+      ]
+    },
+    {
+      "state": "jumping",
+      "label_zh": "跳跃",
+      "row": 4,
+      "frame_count": 5,
+      "used_columns": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "frame_durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        280
+      ]
+    },
+    {
+      "state": "failed",
+      "label_zh": "受挫",
+      "row": 5,
+      "frame_count": 8,
+      "used_columns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "frame_durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        240
+      ]
+    },
+    {
+      "state": "waiting",
+      "label_zh": "等待回应",
+      "row": 6,
+      "frame_count": 6,
+      "used_columns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "frame_durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        260
+      ]
+    },
+    {
+      "state": "running",
+      "label_zh": "忙碌／处理任务",
+      "row": 7,
+      "frame_count": 6,
+      "used_columns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "frame_durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "state": "review",
+      "label_zh": "检查结果",
+      "row": 8,
+      "frame_count": 6,
+      "used_columns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "frame_durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        280
+      ]
+    }
+  ],
+  "look_directions": {
+    "angle_origin": "up",
+    "angle_order": "clockwise",
+    "coordinate_frame": "viewer/screen",
+    "neutral": "idle",
+    "samples": [
+      {
+        "degrees": 0.0,
+        "row": 9,
+        "column": 0
+      },
+      {
+        "degrees": 22.5,
+        "row": 9,
+        "column": 1
+      },
+      {
+        "degrees": 45.0,
+        "row": 9,
+        "column": 2
+      },
+      {
+        "degrees": 67.5,
+        "row": 9,
+        "column": 3
+      },
+      {
+        "degrees": 90.0,
+        "row": 9,
+        "column": 4
+      },
+      {
+        "degrees": 112.5,
+        "row": 9,
+        "column": 5
+      },
+      {
+        "degrees": 135.0,
+        "row": 9,
+        "column": 6
+      },
+      {
+        "degrees": 157.5,
+        "row": 9,
+        "column": 7
+      },
+      {
+        "degrees": 180.0,
+        "row": 10,
+        "column": 0
+      },
+      {
+        "degrees": 202.5,
+        "row": 10,
+        "column": 1
+      },
+      {
+        "degrees": 225.0,
+        "row": 10,
+        "column": 2
+      },
+      {
+        "degrees": 247.5,
+        "row": 10,
+        "column": 3
+      },
+      {
+        "degrees": 270.0,
+        "row": 10,
+        "column": 4
+      },
+      {
+        "degrees": 292.5,
+        "row": 10,
+        "column": 5
+      },
+      {
+        "degrees": 315.0,
+        "row": 10,
+        "column": 6
+      },
+      {
+        "degrees": 337.5,
+        "row": 10,
+        "column": 7
+      }
+    ]
+  },
+  "previews": {
+    "idle": "previews/idle.gif",
+    "working": "previews/working.gif",
+    "look_directions": "previews/look-directions.gif",
+    "contact_sheet": "previews/contact-sheet.png"
+  },
+  "integrity": {
+    "algorithm": "SHA-256",
+    "sha256": "028c35595bc3a6939413500f1ddee98527aaf4fef61d67e576eddbd5e781d236",
+    "bytes": 2608893
+  },
+  "rights_notice": "../../RIGHTS.md",
+  "attribution": "../../ATTRIBUTION.md"
+}
